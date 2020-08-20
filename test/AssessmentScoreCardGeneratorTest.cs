@@ -1,8 +1,5 @@
 ﻿using AssessmentScoreCardGenerator;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace test
 {
@@ -60,9 +57,9 @@ namespace test
         }
 
         [Test]
-        public void Should_PrintScoreCard_Return_String()
+        public void Should_GenerateScoreCard_Return_String()
         {
-            var result = Program.PrintScoreCard(100, "Shivay", cards, Program.GetOverallScore(cards));
+            var result = Program.GenerateScoreCard(100, "Shivay", cards, Program.GetOverallScore(cards));
             Assert.That(result, Is.TypeOf<string>());
 
             Assert.That(result, Does.Contain("100"));

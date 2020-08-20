@@ -1,25 +1,25 @@
-## Problem Statement: Calculate Percentage of Overall Score obtained by student in different assessments
+## Problem Statement: Calculate overall percentage obtained by cadet in different assessments
 
-**Develop the solution for above problem statement usig enumerations, structures and StringBuilder**
+**This program should collect assessment details for cadet and calculate percentage score obtained by cadet for all the assessments. The assessments are of different type and have different maximum scores**
 
 **This exercise contains a class named Program with the below given methods.**
 
-     +GetOverAllScore : int
-         - Should take set of Assessment Cards
+     +GetOverAllScore() : int
+         - Should take set of Assessment Cards as parameter
          - Retrieve the maximum score for each assessment type. Assessment type should be an enumeration
-         - Should return average value as integer for the average calculated
+         - Should return percentage score value as integer for the average calculated
 
 ------------------------------------------------------
 
-      +PrintScoreCard : string
-         - Should take set of Assessment Cards
-         - Retrieve the maximum score for each assessment type. 
-         - Assessment type should be an enumeration
-         - Should send error message if all value in array are not positive
-         - Should send error message if array is empty
+      +GenerateScoreCard() : string
+         - Should take set of assessment cards as parameter
+         - Should also take cadet no, cadet name, overall percentage score calculated.
+         - Retrieve the maximum score for each assessment type.
          - Should build a string using StringBuiler that outputs cadetno, cadetName, date of appraisal, appraisal type, card data and overall score
 
 ------------------------------------------------------
+
+The program should also contain definitions for  enumerated and structure types as suggested below:
 
       +AssessmentType : enum
          - Should contain named constants for types of assessment such as Quiz, Calibration, KBA and Hackathon

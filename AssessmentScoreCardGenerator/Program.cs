@@ -25,20 +25,19 @@ namespace AssessmentScoreCardGenerator
         {
             
             // this code is optional here however it wil help 
-            // you to understand the requirements better
-                           
-            
+            // you to understand the requirements better    
         }
-
-        public static int GetOverallScore(AssessmentCard[] cards)
+        // this method accepts assessment cards and calculates total percentage
+        public static int GetOverallScore()
         {
             // the logic put here should use foreach loop to read 
             // card data and calculate percentage as mentioned.
             // the maximum score value for each assessment type can be retrieve
-            // from enum constant
-            
+            // from enum constant            
         }
-        public static void PrintScoreCard(AssessmentCard card)
+
+        // this method should generate score card from the details provided
+        public static void GenerateScoreCard()
         {
             // the code here should build string with contents such as
             // cadet no, cadet name, calibration type, score obtained

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace AssessmentScoreCardGenerator
 {
@@ -37,7 +37,7 @@ namespace AssessmentScoreCardGenerator
         }
 
         // this method should generate score card from the details provided
-        public static void GenerateScoreCard()
+        public static string GenerateScoreCard()
         {
             // the code here should build string with contents such as
             // cadet no, cadet name, calibration type, score obtained
